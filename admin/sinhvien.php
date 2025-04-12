@@ -69,7 +69,7 @@ function qlsv_sinhvien_page() {
                 <tr><th>Họ tên</th><td><input type="text" name="ho_ten" value="<?php echo $edit_data ? esc_attr($edit_data->ho_ten) : ''; ?>" required></td></tr>
                 <tr><th>Ngày sinh</th><td><input type="date" name="ngay_sinh" value="<?php echo $edit_data ? esc_attr($edit_data->ngay_sinh) : ''; ?>" required></td></tr>
                 <tr><th>Giới tính</th><td>
-                    <select name="gioi_t используетсяinh">
+                    <select name="gioi_tinh">
                         <option value="Nam" <?php echo $edit_data && $edit_data->gioi_tinh == 'Nam' ? 'selected' : ''; ?>>Nam</option>
                         <option value="Nữ" <?php echo $edit_data && $edit_data->gioi_tinh == 'Nữ' ? 'selected' : ''; ?>>Nữ</option>
                     </select>
